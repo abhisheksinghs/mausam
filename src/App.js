@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div><p>A Component of weather having current user location data </p></div>
+
       {(typeof data.main != 'undefined') ? (
         <Weather weatherData={data} />
       ) : (
